@@ -1,1 +1,1 @@
-A python package to extract the audio from a video.
+A python package to extract audio from a video.
