@@ -1,0 +1,2 @@
+graft vid2aud/data
+exclude vid2aud/data/audio/*.txt
