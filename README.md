@@ -25,9 +25,7 @@ pip install . --use-feature=in-tree-build
 ## Quick start
 
 **vid2aud** allows importing video from both Google drive and local directory. 
-In this guide, we import video from Google drive. 
-
-Assign the folder ID of the Google drive folder that contains video in `folder_id` and the video format in `file_format` (The folder ID is a string of text after the last / in your folder's url). 
+In this guide, we import video from Google drive. Assign the folder ID of the Google drive folder that contains video in `folder_id` and the video format in `file_format` (The folder ID is a string of text after the last / in your folder's url). 
 
 To import the video from local directory, use `path` to assign the directory instead.
 
@@ -38,7 +36,7 @@ from vid2aud import vid2aud
 test = vid2aud(folder_id='1r8OF_5Vu7p8tjdZwsf1maOcKHdmZWpuo', file_format='.mp4')
 
 # loading video from local directory
-#test = vid2aud(path='/data/video/', file_format='.mp4')
+#test = vid2aud(path='data/video/', file_format='.mp4')
 ```
 Choose the video file desired to convert by `file_no` and assign file name and file format of the converted audio in `audio_name` and `audio_format` respectively.
 
