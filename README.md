@@ -61,7 +61,7 @@ camera = audio_visualization('GH020063.wav', offset_read = 74, duration_read=15,
 </div>
 
 ## Currently ongoing developments
-- [ ] Batch process videos
+- Batch process videos
 
 ## Bugs report and suggestions 
 If you encounter any bug or issue, please contact Yi-Jen Sun via elainesun442@gmail.com. Suggestions are also appreciated!
